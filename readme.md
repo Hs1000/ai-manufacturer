@@ -2,11 +2,11 @@
 
 ## Live Deployment
 
-| Layer    | URL                                        |
-| -------- | ------------------------------------------ |
-| Frontend | Vercel (see Vercel dashboard after deploy) |
-| Backend  | https://ai-manufacturer.onrender.com       |
-| API Docs | https://ai-manufacturer.onrender.com/docs  |
+| Layer    | URL                                                      |
+| -------- | -------------------------------------------------------- |
+| Frontend | https://hs1000.github.io/ai-manufacturer/                |
+| Backend  | https://ai-manufacturer.onrender.com                     |
+| API Docs | https://ai-manufacturer.onrender.com/docs                |
 
 ---
 
@@ -436,14 +436,13 @@ The backend auto-seeds sample data and generates forecasts on first boot (empty 
 
 Live URL: `https://ai-manufacturer.onrender.com`
 
-### Frontend — Vercel
+### Frontend — GitHub Pages
 
-The repo contains `frontend/vercel.json` (SPA rewrite rules) and `frontend/.env.production` (backend URL baked in at build time).
+The repo contains `.github/workflows/deploy-frontend.yml`. Any push to `main` that touches `frontend/` triggers an automatic build and deploy to GitHub Pages.
 
-1. Go to [vercel.com](https://vercel.com) → **Add New Project** → import `Hs1000/ai-manufacturer`
-2. Set **Root Directory** to `frontend`
-3. Framework: **Vite** (auto-detected)
-4. Click **Deploy** — no environment variables needed (`.env.production` is committed)
+Live URL: `https://hs1000.github.io/ai-manufacturer/`
+
+To deploy manually: push to `main` or trigger the **Deploy Frontend to GitHub Pages** workflow from the Actions tab.
 
 ---
 
