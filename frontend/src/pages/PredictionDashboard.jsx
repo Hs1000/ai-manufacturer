@@ -8,7 +8,7 @@ function PredictionDashboard() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const fetchAll = useCallback(async () => {
+  const fetchAll = useCallback(async (attempt = 1) => {
     setLoading(true);
     setError(null);
     try {
@@ -19,13 +19,20 @@ function PredictionDashboard() {
       setPredictions(predRes.data);
       setSummary(sumRes.data);
     } catch (err) {
-      setError(
-        err.response?.data?.detail ||
-          "Failed to load predictions. The backend may still be training models — try again in 30 seconds."
-      );
-    } finally {
-      setLoading(false);
+      if (attempt < 3) {
+        // Auto-retry twice (Render cold start can take ~30s)
+        setTimeout(() => fetchAll(attempt + 1), 15000);
+        setError(`Backend is waking up... retrying automatically (attempt ${attempt}/3)`);
+      } else {
+        setError(
+          err.response?.data?.detail ||
+            "Could not reach backend. Click Retry once the server is awake (~30s on first load)."
+        );
+        setLoading(false);
+      }
+      return;
     }
+    setLoading(false);
   }, []);
 
   useEffect(() => {
@@ -47,7 +54,7 @@ function PredictionDashboard() {
         <Card title="Low Risk" value={summary.low} color="#16a34a" />
       </div>
 
-      {loading && (
+      {loading && !error && (
         <div style={{ textAlign: "center", padding: "60px", color: "#64748b" }}>
           Loading predictions...
         </div>
@@ -58,26 +65,28 @@ function PredictionDashboard() {
           style={{
             textAlign: "center",
             padding: "40px",
-            background: "#fef2f2",
+            background: loading ? "#fffbeb" : "#fef2f2",
             borderRadius: "12px",
-            color: "#dc2626",
+            color: loading ? "#92400e" : "#dc2626",
           }}
         >
           <p style={{ marginBottom: "16px" }}>{error}</p>
-          <button
-            onClick={fetchAll}
-            style={{
-              padding: "10px 24px",
-              background: "#dc2626",
-              color: "white",
-              border: "none",
-              borderRadius: "8px",
-              cursor: "pointer",
-              fontSize: "14px",
-            }}
-          >
-            Retry
-          </button>
+          {!loading && (
+            <button
+              onClick={fetchAll}
+              style={{
+                padding: "10px 24px",
+                background: "#dc2626",
+                color: "white",
+                border: "none",
+                borderRadius: "8px",
+                cursor: "pointer",
+                fontSize: "14px",
+              }}
+            >
+              Retry
+            </button>
+          )}
         </div>
       )}
 
