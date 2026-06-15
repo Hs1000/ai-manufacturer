@@ -355,7 +355,7 @@ Artifacts: `app/ml/forecast_model.pkl`, `forecast_lens_encoder.pkl`, `forecast_p
 Run from the project root:
 
 ```bash
-pip install -r requirements.txt
+pip install -r backend/requirements.txt
 cd backend
 uvicorn app.main:app --reload
 ```
