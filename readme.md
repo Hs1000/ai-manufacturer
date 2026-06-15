@@ -1,5 +1,15 @@
 # AI-Powered Eyewear Order Management System
 
+## Live Deployment
+
+| Layer    | URL                                        |
+| -------- | ------------------------------------------ |
+| Frontend | Vercel (see Vercel dashboard after deploy) |
+| Backend  | https://ai-manufacturer.onrender.com       |
+| API Docs | https://ai-manufacturer.onrender.com/docs  |
+
+---
+
 ## Overview
 
 The AI-Powered Eyewear Order Management System is a full-stack application designed to manage eyewear manufacturing operations, inventory planning, order lifecycle tracking, SLA monitoring, and predictive analytics.
@@ -412,16 +422,52 @@ Navigate to `http://localhost:5173`
 
 ---
 
+## Deploying to Production
+
+### Backend — Render
+
+The repo contains `render.yaml`. On [render.com](https://render.com):
+
+1. **New → Web Service** → connect `Hs1000/ai-manufacturer`
+2. Render auto-detects `render.yaml` (build + start commands pre-filled)
+3. Click **Deploy**
+
+The backend auto-seeds sample data and generates forecasts on first boot (empty DB detected via lifespan hook in `main.py`).
+
+Live URL: `https://ai-manufacturer.onrender.com`
+
+### Frontend — Vercel
+
+The repo contains `frontend/vercel.json` (SPA rewrite rules) and `frontend/.env.production` (backend URL baked in at build time).
+
+1. Go to [vercel.com](https://vercel.com) → **Add New Project** → import `Hs1000/ai-manufacturer`
+2. Set **Root Directory** to `frontend`
+3. Framework: **Vite** (auto-detected)
+4. Click **Deploy** — no environment variables needed (`.env.production` is committed)
+
+---
+
 ## Reviewer Notes
 
 - **SQLite database** is stored at `backend/eyewear.db` and is created automatically on first start. It is not committed to the repo.
 - **`requirements.txt`** lives at the project root, not inside `backend/`. Install it from the root before `cd backend`.
 - **The backend must be launched from `backend/`**, not the repo root, because model loading uses relative paths like `app/ml/breach_model.pkl`.
+- **Render ephemeral filesystem** — SQLite resets on every redeploy. The lifespan auto-seed in `main.py` handles this automatically.
 - **Seed data is destructive** — `POST /admin/seed-data` deletes all existing orders, inventory, and transactions before regenerating.
 - **Alert thresholds are hardcoded** in `alerts.py`: inventory quantity < 30 triggers LOW_STOCK; predicted demand > 10 triggers DEMAND_SPIKE; any order in QC status triggers HIGH_RISK_ORDER.
 - **Recommended stock buffer** is hardcoded at 1.30× predicted demand in `forecast.py`.
 - **Risk bucketing** (HIGH / MEDIUM / LOW) in `prediction.py` is a rule applied on top of the model's probability output — the underlying breach probability is fully model-driven (Random Forest `predict_proba`).
 - **`/dashboard/order-status` and `/dashboard/forecast-demand`** listed in an earlier version of this README do not exist in the codebase. The only active dashboard endpoint is `/dashboard/summary`.
+
+---
+
+## Architecture Reference
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) and [ARCHITECTURE.pdf](ARCHITECTURE.pdf) for:
+- Full system architecture diagram
+- AI model selection rationale (why Random Forest, why no external API)
+- Feature importance breakdown
+- Alert threshold documentation
 
 ---
 
@@ -433,6 +479,6 @@ Navigate to `http://localhost:5173`
 * Multi-warehouse inventory support
 * Automated inventory replenishment recommendations
 * LLM-powered operational insights
-* Cloud deployment using Docker and Kubernetes
+* Migrate from SQLite to PostgreSQL for persistent production data
 
 ---
