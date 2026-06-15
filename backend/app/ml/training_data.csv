@@ -1,0 +1,501 @@
+lens_type,status,elapsed_hours,breached
+Blue Light,LENS_CUTTING,91.0,1
+Progressive,COATING,60.0,0
+Single Vision,DISPATCHED,119.0,1
+Progressive,COATING,29.0,0
+Single Vision,COATING,46.0,0
+Single Vision,PRESCRIPTION_VALIDATED,3.0,0
+Progressive,ASSEMBLY,34.0,0
+Single Vision,COATING,102.0,1
+Progressive,PRESCRIPTION_VALIDATED,74.0,0
+Progressive,ASSEMBLY,27.0,0
+Blue Light,PRESCRIPTION_VALIDATED,119.0,1
+Progressive,COATING,49.0,0
+Single Vision,PRESCRIPTION_VALIDATED,116.0,1
+Blue Light,PRESCRIPTION_VALIDATED,43.0,0
+Progressive,PRESCRIPTION_VALIDATED,106.0,0
+Blue Light,ORDER_PLACED,75.0,1
+Progressive,QC,69.0,0
+Single Vision,LENS_CUTTING,103.0,1
+Blue Light,COATING,68.0,0
+Progressive,DISPATCHED,22.0,0
+Single Vision,ASSEMBLY,33.0,0
+Progressive,DELIVERED,41.0,0
+Single Vision,PRESCRIPTION_VALIDATED,44.0,0
+Single Vision,LENS_CUTTING,110.0,1
+Progressive,DISPATCHED,12.0,0
+Blue Light,COATING,14.0,0
+Single Vision,COATING,57.0,1
+Single Vision,ORDER_PLACED,6.0,0
+Single Vision,DISPATCHED,102.0,1
+Blue Light,ORDER_PLACED,103.0,1
+Progressive,COATING,78.0,0
+Single Vision,LENS_CUTTING,83.0,1
+Progressive,PRESCRIPTION_VALIDATED,79.0,0
+Progressive,COATING,81.0,0
+Single Vision,ASSEMBLY,108.0,1
+Single Vision,LENS_CUTTING,26.0,0
+Blue Light,DISPATCHED,52.0,0
+Blue Light,ASSEMBLY,34.0,0
+Single Vision,DELIVERED,105.0,1
+Single Vision,DISPATCHED,38.0,0
+Progressive,DELIVERED,41.0,0
+Progressive,PRESCRIPTION_VALIDATED,112.0,0
+Progressive,QC,36.0,0
+Progressive,QC,83.0,0
+Progressive,DISPATCHED,3.0,0
+Single Vision,QC,39.0,0
+Single Vision,ORDER_PLACED,90.0,1
+Progressive,COATING,6.0,0
+Progressive,ORDER_PLACED,18.0,0
+Progressive,ORDER_PLACED,39.0,0
+Blue Light,DELIVERED,113.0,1
+Blue Light,COATING,89.0,1
+Single Vision,DELIVERED,59.0,1
+Blue Light,ASSEMBLY,98.0,1
+Progressive,DISPATCHED,57.0,0
+Progressive,LENS_CUTTING,67.0,0
+Single Vision,QC,61.0,1
+Blue Light,ASSEMBLY,97.0,1
+Single Vision,COATING,58.0,1
+Blue Light,DELIVERED,54.0,0
+Progressive,QC,70.0,0
+Single Vision,DISPATCHED,84.0,1
+Blue Light,PRESCRIPTION_VALIDATED,6.0,0
+Progressive,DISPATCHED,116.0,0
+Blue Light,QC,2.0,0
+Progressive,LENS_CUTTING,9.0,0
+Blue Light,ORDER_PLACED,79.0,1
+Progressive,PRESCRIPTION_VALIDATED,106.0,0
+Progressive,COATING,117.0,0
+Progressive,PRESCRIPTION_VALIDATED,119.0,0
+Blue Light,QC,42.0,0
+Progressive,LENS_CUTTING,18.0,0
+Blue Light,DELIVERED,82.0,1
+Progressive,DISPATCHED,100.0,0
+Progressive,ORDER_PLACED,67.0,0
+Progressive,COATING,31.0,0
+Single Vision,DISPATCHED,119.0,1
+Progressive,ORDER_PLACED,95.0,0
+Single Vision,DELIVERED,22.0,0
+Progressive,DISPATCHED,39.0,0
+Progressive,QC,64.0,0
+Blue Light,DISPATCHED,93.0,1
+Single Vision,ASSEMBLY,34.0,0
+Progressive,ORDER_PLACED,22.0,0
+Progressive,COATING,11.0,0
+Blue Light,DELIVERED,105.0,1
+Progressive,PRESCRIPTION_VALIDATED,6.0,0
+Blue Light,PRESCRIPTION_VALIDATED,117.0,1
+Blue Light,DISPATCHED,5.0,0
+Progressive,DISPATCHED,51.0,0
+Single Vision,DISPATCHED,118.0,1
+Single Vision,LENS_CUTTING,101.0,1
+Progressive,DISPATCHED,11.0,0
+Progressive,ASSEMBLY,97.0,0
+Single Vision,LENS_CUTTING,19.0,0
+Progressive,DELIVERED,32.0,0
+Single Vision,QC,2.0,0
+Progressive,ASSEMBLY,109.0,0
+Single Vision,COATING,84.0,1
+Blue Light,PRESCRIPTION_VALIDATED,3.0,0
+Progressive,DELIVERED,65.0,0
+Blue Light,COATING,118.0,1
+Progressive,DISPATCHED,78.0,0
+Progressive,ASSEMBLY,20.0,0
+Blue Light,DISPATCHED,109.0,1
+Single Vision,PRESCRIPTION_VALIDATED,110.0,1
+Single Vision,QC,7.0,0
+Progressive,DISPATCHED,95.0,0
+Progressive,DELIVERED,73.0,0
+Blue Light,DISPATCHED,92.0,1
+Single Vision,DISPATCHED,35.0,0
+Single Vision,PRESCRIPTION_VALIDATED,88.0,1
+Single Vision,COATING,35.0,0
+Progressive,DISPATCHED,10.0,0
+Single Vision,ORDER_PLACED,46.0,0
+Progressive,ASSEMBLY,58.0,0
+Single Vision,COATING,14.0,0
+Single Vision,QC,23.0,0
+Blue Light,DISPATCHED,48.0,0
+Progressive,DISPATCHED,6.0,0
+Single Vision,COATING,108.0,1
+Single Vision,DELIVERED,21.0,0
+Single Vision,ORDER_PLACED,117.0,1
+Progressive,DELIVERED,29.0,0
+Single Vision,DISPATCHED,58.0,1
+Progressive,DELIVERED,93.0,0
+Single Vision,ASSEMBLY,66.0,1
+Blue Light,PRESCRIPTION_VALIDATED,48.0,0
+Blue Light,PRESCRIPTION_VALIDATED,57.0,0
+Progressive,LENS_CUTTING,74.0,0
+Progressive,LENS_CUTTING,62.0,0
+Single Vision,DELIVERED,3.0,0
+Progressive,COATING,82.0,0
+Blue Light,LENS_CUTTING,103.0,1
+Blue Light,ORDER_PLACED,4.0,0
+Single Vision,DELIVERED,74.0,1
+Single Vision,ORDER_PLACED,32.0,0
+Progressive,COATING,37.0,0
+Single Vision,QC,48.0,1
+Single Vision,DELIVERED,42.0,0
+Blue Light,DISPATCHED,84.0,1
+Single Vision,DELIVERED,9.0,0
+Single Vision,ORDER_PLACED,82.0,1
+Blue Light,COATING,48.0,0
+Single Vision,ASSEMBLY,108.0,1
+Blue Light,DELIVERED,37.0,0
+Single Vision,ASSEMBLY,71.0,1
+Blue Light,ORDER_PLACED,84.0,1
+Progressive,LENS_CUTTING,72.0,0
+Single Vision,ASSEMBLY,28.0,0
+Single Vision,ORDER_PLACED,13.0,0
+Progressive,PRESCRIPTION_VALIDATED,84.0,0
+Progressive,QC,81.0,0
+Single Vision,ORDER_PLACED,95.0,1
+Progressive,LENS_CUTTING,43.0,0
+Blue Light,DELIVERED,29.0,0
+Progressive,PRESCRIPTION_VALIDATED,1.0,0
+Blue Light,ORDER_PLACED,23.0,0
+Progressive,QC,62.0,0
+Blue Light,ASSEMBLY,81.0,1
+Progressive,COATING,57.0,0
+Progressive,DISPATCHED,16.0,0
+Blue Light,DISPATCHED,106.0,1
+Blue Light,QC,110.0,1
+Blue Light,DELIVERED,33.0,0
+Progressive,ASSEMBLY,35.0,0
+Single Vision,PRESCRIPTION_VALIDATED,69.0,1
+Single Vision,QC,85.0,1
+Single Vision,QC,99.0,1
+Blue Light,COATING,85.0,1
+Single Vision,DELIVERED,51.0,1
+Progressive,QC,41.0,0
+Progressive,PRESCRIPTION_VALIDATED,37.0,0
+Blue Light,ASSEMBLY,101.0,1
+Blue Light,ASSEMBLY,52.0,0
+Progressive,ASSEMBLY,47.0,0
+Progressive,LENS_CUTTING,16.0,0
+Single Vision,LENS_CUTTING,112.0,1
+Single Vision,PRESCRIPTION_VALIDATED,92.0,1
+Blue Light,COATING,61.0,0
+Single Vision,DISPATCHED,7.0,0
+Single Vision,DELIVERED,91.0,1
+Progressive,ORDER_PLACED,17.0,0
+Blue Light,DELIVERED,8.0,0
+Blue Light,ORDER_PLACED,70.0,0
+Blue Light,DISPATCHED,25.0,0
+Single Vision,LENS_CUTTING,74.0,1
+Progressive,LENS_CUTTING,112.0,0
+Single Vision,DISPATCHED,113.0,1
+Progressive,DELIVERED,73.0,0
+Progressive,QC,46.0,0
+Single Vision,ORDER_PLACED,108.0,1
+Single Vision,PRESCRIPTION_VALIDATED,74.0,1
+Single Vision,ASSEMBLY,116.0,1
+Progressive,QC,21.0,0
+Progressive,LENS_CUTTING,39.0,0
+Blue Light,ASSEMBLY,47.0,0
+Single Vision,PRESCRIPTION_VALIDATED,19.0,0
+Progressive,ORDER_PLACED,113.0,0
+Progressive,COATING,44.0,0
+Single Vision,DELIVERED,100.0,1
+Progressive,QC,2.0,0
+Blue Light,DISPATCHED,107.0,1
+Blue Light,LENS_CUTTING,90.0,1
+Progressive,ASSEMBLY,98.0,0
+Single Vision,DISPATCHED,95.0,1
+Single Vision,ASSEMBLY,46.0,0
+Single Vision,ASSEMBLY,25.0,0
+Progressive,COATING,18.0,0
+Progressive,PRESCRIPTION_VALIDATED,84.0,0
+Blue Light,PRESCRIPTION_VALIDATED,90.0,1
+Progressive,QC,86.0,0
+Blue Light,ORDER_PLACED,20.0,0
+Blue Light,DELIVERED,97.0,1
+Blue Light,LENS_CUTTING,14.0,0
+Single Vision,QC,34.0,0
+Blue Light,QC,110.0,1
+Progressive,ASSEMBLY,76.0,0
+Progressive,LENS_CUTTING,86.0,0
+Single Vision,QC,95.0,1
+Progressive,ORDER_PLACED,27.0,0
+Blue Light,LENS_CUTTING,34.0,0
+Progressive,QC,2.0,0
+Blue Light,LENS_CUTTING,35.0,0
+Progressive,DISPATCHED,102.0,0
+Single Vision,LENS_CUTTING,103.0,1
+Single Vision,DELIVERED,21.0,0
+Blue Light,DISPATCHED,30.0,0
+Blue Light,PRESCRIPTION_VALIDATED,65.0,0
+Single Vision,ORDER_PLACED,110.0,1
+Single Vision,PRESCRIPTION_VALIDATED,70.0,1
+Single Vision,PRESCRIPTION_VALIDATED,47.0,0
+Single Vision,DISPATCHED,115.0,1
+Blue Light,DELIVERED,109.0,1
+Single Vision,PRESCRIPTION_VALIDATED,98.0,1
+Single Vision,QC,115.0,1
+Blue Light,DELIVERED,79.0,1
+Blue Light,LENS_CUTTING,82.0,1
+Single Vision,PRESCRIPTION_VALIDATED,103.0,1
+Single Vision,ASSEMBLY,92.0,1
+Progressive,DELIVERED,53.0,0
+Blue Light,ASSEMBLY,107.0,1
+Progressive,ORDER_PLACED,64.0,0
+Progressive,ASSEMBLY,6.0,0
+Single Vision,ASSEMBLY,69.0,1
+Single Vision,DISPATCHED,5.0,0
+Single Vision,DISPATCHED,80.0,1
+Blue Light,ORDER_PLACED,71.0,0
+Progressive,DELIVERED,97.0,0
+Progressive,ASSEMBLY,97.0,0
+Progressive,ASSEMBLY,24.0,0
+Progressive,DISPATCHED,99.0,0
+Single Vision,PRESCRIPTION_VALIDATED,20.0,0
+Single Vision,PRESCRIPTION_VALIDATED,78.0,1
+Single Vision,QC,87.0,1
+Progressive,LENS_CUTTING,109.0,0
+Blue Light,COATING,86.0,1
+Blue Light,QC,44.0,0
+Blue Light,ASSEMBLY,80.0,1
+Single Vision,PRESCRIPTION_VALIDATED,66.0,1
+Progressive,ASSEMBLY,54.0,0
+Blue Light,COATING,66.0,0
+Blue Light,COATING,23.0,0
+Single Vision,PRESCRIPTION_VALIDATED,23.0,0
+Progressive,LENS_CUTTING,9.0,0
+Progressive,LENS_CUTTING,1.0,0
+Progressive,QC,32.0,0
+Blue Light,ASSEMBLY,79.0,1
+Blue Light,PRESCRIPTION_VALIDATED,116.0,1
+Progressive,QC,10.0,0
+Progressive,DISPATCHED,77.0,0
+Single Vision,DELIVERED,54.0,1
+Progressive,DISPATCHED,87.0,0
+Blue Light,DISPATCHED,26.0,0
+Progressive,LENS_CUTTING,104.0,0
+Progressive,LENS_CUTTING,18.0,0
+Progressive,PRESCRIPTION_VALIDATED,11.0,0
+Progressive,ORDER_PLACED,93.0,0
+Blue Light,ORDER_PLACED,48.0,0
+Progressive,QC,59.0,0
+Progressive,COATING,80.0,0
+Progressive,LENS_CUTTING,28.0,0
+Blue Light,ASSEMBLY,99.0,1
+Blue Light,COATING,40.0,0
+Single Vision,ASSEMBLY,42.0,0
+Single Vision,ORDER_PLACED,30.0,0
+Progressive,ASSEMBLY,109.0,0
+Single Vision,QC,66.0,1
+Blue Light,DELIVERED,9.0,0
+Progressive,DELIVERED,117.0,0
+Progressive,LENS_CUTTING,48.0,0
+Single Vision,LENS_CUTTING,90.0,1
+Blue Light,DELIVERED,50.0,0
+Single Vision,LENS_CUTTING,5.0,0
+Blue Light,COATING,60.0,0
+Single Vision,ASSEMBLY,55.0,1
+Blue Light,DISPATCHED,114.0,1
+Single Vision,COATING,21.0,0
+Blue Light,PRESCRIPTION_VALIDATED,120.0,1
+Single Vision,ASSEMBLY,53.0,1
+Blue Light,ASSEMBLY,89.0,1
+Blue Light,PRESCRIPTION_VALIDATED,77.0,1
+Blue Light,DISPATCHED,16.0,0
+Single Vision,DELIVERED,116.0,1
+Blue Light,ORDER_PLACED,53.0,0
+Single Vision,DISPATCHED,92.0,1
+Single Vision,DELIVERED,15.0,0
+Blue Light,PRESCRIPTION_VALIDATED,58.0,0
+Progressive,DISPATCHED,33.0,0
+Progressive,ASSEMBLY,113.0,0
+Progressive,LENS_CUTTING,115.0,0
+Blue Light,ORDER_PLACED,63.0,0
+Single Vision,ASSEMBLY,74.0,1
+Progressive,LENS_CUTTING,42.0,0
+Blue Light,ASSEMBLY,45.0,0
+Single Vision,LENS_CUTTING,105.0,1
+Progressive,PRESCRIPTION_VALIDATED,1.0,0
+Single Vision,DELIVERED,63.0,1
+Progressive,LENS_CUTTING,36.0,0
+Progressive,ORDER_PLACED,55.0,0
+Blue Light,ASSEMBLY,10.0,0
+Blue Light,QC,108.0,1
+Blue Light,LENS_CUTTING,51.0,0
+Single Vision,DISPATCHED,43.0,0
+Single Vision,DISPATCHED,51.0,1
+Progressive,DELIVERED,87.0,0
+Single Vision,ASSEMBLY,105.0,1
+Progressive,ORDER_PLACED,117.0,0
+Single Vision,ORDER_PLACED,9.0,0
+Blue Light,PRESCRIPTION_VALIDATED,39.0,0
+Single Vision,LENS_CUTTING,119.0,1
+Blue Light,COATING,49.0,0
+Blue Light,DISPATCHED,4.0,0
+Progressive,DELIVERED,31.0,0
+Blue Light,COATING,67.0,0
+Blue Light,DELIVERED,105.0,1
+Progressive,LENS_CUTTING,96.0,0
+Progressive,DISPATCHED,81.0,0
+Single Vision,DISPATCHED,2.0,0
+Progressive,PRESCRIPTION_VALIDATED,34.0,0
+Single Vision,LENS_CUTTING,26.0,0
+Progressive,LENS_CUTTING,112.0,0
+Blue Light,LENS_CUTTING,33.0,0
+Single Vision,ORDER_PLACED,63.0,1
+Blue Light,QC,11.0,0
+Blue Light,LENS_CUTTING,23.0,0
+Progressive,LENS_CUTTING,16.0,0
+Blue Light,PRESCRIPTION_VALIDATED,18.0,0
+Progressive,QC,64.0,0
+Progressive,LENS_CUTTING,111.0,0
+Single Vision,LENS_CUTTING,21.0,0
+Single Vision,PRESCRIPTION_VALIDATED,28.0,0
+Progressive,DISPATCHED,26.0,0
+Progressive,COATING,107.0,0
+Blue Light,COATING,56.0,0
+Blue Light,PRESCRIPTION_VALIDATED,9.0,0
+Single Vision,DELIVERED,53.0,1
+Progressive,LENS_CUTTING,118.0,0
+Progressive,COATING,93.0,0
+Blue Light,COATING,16.0,0
+Blue Light,DISPATCHED,35.0,0
+Progressive,QC,95.0,0
+Progressive,COATING,66.0,0
+Progressive,COATING,52.0,0
+Progressive,PRESCRIPTION_VALIDATED,45.0,0
+Single Vision,ASSEMBLY,93.0,1
+Single Vision,COATING,80.0,1
+Progressive,LENS_CUTTING,25.0,0
+Single Vision,ORDER_PLACED,117.0,1
+Progressive,ASSEMBLY,98.0,0
+Single Vision,DELIVERED,112.0,1
+Blue Light,ORDER_PLACED,55.0,0
+Progressive,LENS_CUTTING,83.0,0
+Single Vision,QC,100.0,1
+Blue Light,ORDER_PLACED,11.0,0
+Blue Light,DELIVERED,47.0,0
+Blue Light,ASSEMBLY,25.0,0
+Blue Light,COATING,97.0,1
+Blue Light,COATING,52.0,0
+Single Vision,DELIVERED,59.0,1
+Progressive,LENS_CUTTING,76.0,0
+Blue Light,ORDER_PLACED,70.0,0
+Single Vision,DELIVERED,10.0,0
+Single Vision,DELIVERED,31.0,0
+Single Vision,DELIVERED,90.0,1
+Blue Light,PRESCRIPTION_VALIDATED,56.0,0
+Single Vision,DELIVERED,117.0,1
+Blue Light,LENS_CUTTING,5.0,0
+Progressive,QC,63.0,0
+Progressive,DISPATCHED,87.0,0
+Blue Light,PRESCRIPTION_VALIDATED,13.0,0
+Single Vision,PRESCRIPTION_VALIDATED,35.0,0
+Single Vision,LENS_CUTTING,116.0,1
+Progressive,PRESCRIPTION_VALIDATED,106.0,0
+Blue Light,PRESCRIPTION_VALIDATED,103.0,1
+Blue Light,LENS_CUTTING,10.0,0
+Progressive,QC,93.0,0
+Blue Light,PRESCRIPTION_VALIDATED,108.0,1
+Blue Light,QC,80.0,1
+Blue Light,PRESCRIPTION_VALIDATED,12.0,0
+Blue Light,DELIVERED,88.0,1
+Progressive,ASSEMBLY,28.0,0
+Blue Light,LENS_CUTTING,116.0,1
+Blue Light,ORDER_PLACED,51.0,0
+Blue Light,PRESCRIPTION_VALIDATED,45.0,0
+Progressive,PRESCRIPTION_VALIDATED,24.0,0
+Single Vision,QC,1.0,0
+Single Vision,PRESCRIPTION_VALIDATED,60.0,1
+Progressive,LENS_CUTTING,26.0,0
+Single Vision,PRESCRIPTION_VALIDATED,13.0,0
+Progressive,PRESCRIPTION_VALIDATED,8.0,0
+Progressive,QC,15.0,0
+Single Vision,COATING,16.0,0
+Blue Light,DISPATCHED,4.0,0
+Single Vision,PRESCRIPTION_VALIDATED,78.0,1
+Progressive,ORDER_PLACED,67.0,0
+Progressive,LENS_CUTTING,118.0,0
+Progressive,QC,112.0,0
+Blue Light,COATING,86.0,1
+Single Vision,LENS_CUTTING,52.0,1
+Blue Light,PRESCRIPTION_VALIDATED,108.0,1
+Blue Light,DISPATCHED,102.0,1
+Blue Light,QC,57.0,0
+Single Vision,ASSEMBLY,4.0,0
+Single Vision,ORDER_PLACED,44.0,0
+Blue Light,COATING,51.0,0
+Progressive,LENS_CUTTING,107.0,0
+Blue Light,LENS_CUTTING,22.0,0
+Blue Light,PRESCRIPTION_VALIDATED,25.0,0
+Blue Light,ORDER_PLACED,95.0,1
+Single Vision,QC,14.0,0
+Blue Light,DELIVERED,7.0,0
+Single Vision,DISPATCHED,97.0,1
+Progressive,QC,107.0,0
+Progressive,ORDER_PLACED,52.0,0
+Blue Light,COATING,87.0,1
+Progressive,LENS_CUTTING,40.0,0
+Progressive,PRESCRIPTION_VALIDATED,80.0,0
+Progressive,DISPATCHED,74.0,0
+Single Vision,DISPATCHED,112.0,1
+Progressive,ORDER_PLACED,49.0,0
+Single Vision,PRESCRIPTION_VALIDATED,47.0,0
+Single Vision,ASSEMBLY,14.0,0
+Progressive,LENS_CUTTING,90.0,0
+Progressive,LENS_CUTTING,9.0,0
+Progressive,DISPATCHED,62.0,0
+Progressive,DISPATCHED,64.0,0
+Single Vision,LENS_CUTTING,12.0,0
+Progressive,COATING,26.0,0
+Progressive,DISPATCHED,70.0,0
+Progressive,ASSEMBLY,85.0,0
+Progressive,LENS_CUTTING,57.0,0
+Blue Light,COATING,53.0,0
+Progressive,DISPATCHED,26.0,0
+Blue Light,DISPATCHED,110.0,1
+Single Vision,QC,4.0,0
+Single Vision,PRESCRIPTION_VALIDATED,90.0,1
+Progressive,LENS_CUTTING,42.0,0
+Single Vision,PRESCRIPTION_VALIDATED,50.0,1
+Single Vision,DISPATCHED,45.0,0
+Progressive,DELIVERED,70.0,0
+Progressive,DELIVERED,88.0,0
+Single Vision,ORDER_PLACED,22.0,0
+Progressive,DELIVERED,49.0,0
+Progressive,COATING,44.0,0
+Blue Light,ASSEMBLY,50.0,0
+Blue Light,COATING,103.0,1
+Single Vision,DELIVERED,96.0,1
+Blue Light,QC,55.0,0
+Single Vision,DISPATCHED,9.0,0
+Single Vision,COATING,34.0,0
+Progressive,PRESCRIPTION_VALIDATED,93.0,0
+Blue Light,COATING,107.0,1
+Blue Light,DISPATCHED,7.0,0
+Single Vision,PRESCRIPTION_VALIDATED,90.0,1
+Progressive,QC,98.0,0
+Single Vision,QC,32.0,0
+Single Vision,COATING,32.0,0
+Single Vision,LENS_CUTTING,16.0,0
+Single Vision,LENS_CUTTING,120.0,1
+Blue Light,COATING,102.0,1
+Progressive,DISPATCHED,4.0,0
+Blue Light,ASSEMBLY,71.0,0
+Progressive,ORDER_PLACED,50.0,0
+Single Vision,QC,75.0,1
+Progressive,ORDER_PLACED,99.0,0
+Single Vision,COATING,68.0,1
+Blue Light,DISPATCHED,55.0,0
+Blue Light,COATING,86.0,1
+Blue Light,DISPATCHED,28.0,0
+Single Vision,QC,94.0,1
+Blue Light,ASSEMBLY,51.0,0
+Progressive,ASSEMBLY,35.0,0
+Progressive,PRESCRIPTION_VALIDATED,117.0,0
+Blue Light,COATING,114.0,1
+Single Vision,COATING,6.0,0
+Progressive,ASSEMBLY,83.0,0
+Blue Light,PRESCRIPTION_VALIDATED,40.0,0
+Single Vision,COATING,37.0,0
+Blue Light,PRESCRIPTION_VALIDATED,39.0,0
