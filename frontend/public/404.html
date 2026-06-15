@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      var path = window.location.pathname.replace('/ai-manufacturer', '') || '/';
+      window.location.replace(
+        '/ai-manufacturer/?path=' + encodeURIComponent(path) + window.location.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
